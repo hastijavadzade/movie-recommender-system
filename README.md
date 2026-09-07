@@ -235,7 +235,7 @@ For the hybrid recommendations:
 * **Novelty:** 10.78
 * **Intra-List Diversity:** 0.96
 
-The hybrid approach performed better than the individual MF and content-based approaches on the reported ranking metrics.
+**Interpretation:** The hybrid model achieved a Recall@20 of 3.58% and a Hit Rate@20 of 3.58%. While the absolute values are relatively low, the evaluation is challenging due to the highly sparse user–item interaction matrix and the large movie catalog. The hybrid approach nevertheless improved over the individual recommendation components, suggesting that combining collaborative and content-based signals can provide complementary information.
 
 ---
 
