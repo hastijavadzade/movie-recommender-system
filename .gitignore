@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data
+data/*
+!data/README.md
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.venv/
+venv/
+.env
+
+src/models/cb/reduced_matrix.npz.npy
